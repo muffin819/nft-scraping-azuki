@@ -1,5 +1,4 @@
-This is a basic boilerplate project to start creating APIs with Node.js and Express. CORS support enabled.
-
+This is a NFT scraping project using alchemy SDK
 # Getting started
 Install the dependencies:
 ```
@@ -7,6 +6,5 @@ npm i
 ```
 and then run:
 ```
-npm run start
+npm run main
 ```
-to start the server.
