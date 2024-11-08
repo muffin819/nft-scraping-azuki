@@ -1,0 +1,28 @@
+{
+  "name": "node-express-simple-boilerplate",
+  "version": "1.0.0",
+  "description": "Simple Node.js + Express boilerplate project.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon infura.js",
+    "tatum": "nodemon tatum.js",
+    "main": "nodemon main.js"
+  },
+  "dependencies": {
+    "@tatumio/tatum": "^4.2.43",
+    "alchemy-sdk": "^3.4.7",
+    "axios": "^1.7.7",
+    "cors": "^2.8.5",
+    "ethers": "^6.13.4",
+    "express": "^4.17.1",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7",
+    "supervisor": "^0.12.0"
+  },
+  "author": "Omar Muscatello",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
